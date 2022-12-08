@@ -8,6 +8,10 @@ Code your things in the `compute` method.<br>
 Run your code using `make part<1-2> DAY="<0-25>"`.<br>
 If you want to test `make test<1-2> DAY="<0-25>"`.<br>
 
+# about
+
+For 2022, I'm planing to implement in python
+
 # timing
 * comparing to these numbers isn't necessarily useful
 * normalize your timing to day 1 part 1 and compare
