@@ -7,7 +7,7 @@ if __name__ == "__main__":
     parser.add_argument("--part", "-p", default=1)
     args = parser.parse_args()
 
-    day = f"day{args.day:02}"
+    day = f"day{args.day:>02}"
     part = f"part{args.part}"
 
     try:
