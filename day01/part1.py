@@ -21,7 +21,6 @@ def compute(s: str) -> int:
             current_elf += 1
             continue
     
-        print(current_elf)
         elves[current_elf].append(int(line))
 
     return max([sum(elf) for elf in elves])
