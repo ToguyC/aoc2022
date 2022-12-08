@@ -1,5 +1,4 @@
 import os
-import argparse
 import pytest
 from .support import timeit
 
@@ -9,13 +8,10 @@ INPUT_TXT = os.path.join(os.path.dirname(__file__), "input.txt")
 
 @timeit
 def compute(s: str) -> int:
-    # numbers = support.parse_numbers_split(s)
-    # for n in numbers:
-    # pass
+    lines = s.splitlines()
+    for line in lines:
+        pass
 
-    # lines = s.splitlines()
-    # for line in lines:
-    # pass
     # TODO: implement solution here!
     return 0
 
